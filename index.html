@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="search_form" action="">
+        
+          <input
+            type="text"
+            name="searchCity"
+            class="Search_City"
+            placeholder="Enter the city"
+          />
+        </>
+        <button type="submit" class="search-btn">
+          <i class="material-icons">search</i>
+        </button>
+      </form>
+      <div class="city-date">
+        <h3 class="city-name">Pokhara</h3>
+        <p class="date">18 May 2024</p>
+      </div>
+      <div class="temperature-info">
+        <div class="description"><i class="material-icons">sunny</i>
+          <span class="Weather-description">Sunny</span>
+        </div>
+        <div class="temp">30°C</div>
+      </div>
+
+
+      <div class="more_info">
+         
+          <div class="wind-info">
+            <i class="material-icons">air</i>
+            <h3 class="windspeed">3.9km/h</h3>
+            <p>wind</p>
+          </div>
+           
+            <div class="humidity-info">
+              <i class="material-icons">water_drop </i>
+              <h3 class="humidity">10km/hr</h3>
+              <p>Humidity</p>
+            </div>
+          
+           
+            <div class="visibility-info">
+              <i class="material-icons">visibility</i>
+              <h3 class="visibility_details">56%</h3>
+              <p>Visibility</p>
+            
+            </div>
+      
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
